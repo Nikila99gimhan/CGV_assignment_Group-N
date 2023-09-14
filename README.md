@@ -1,12 +1,3 @@
-Thank you for sharing your code. Let's extract the relevant information and add it to the project documentation. The code you've provided indicates the processing steps taken on the sign sheets and how the information is extracted and saved. 
-
----
-
-## Project Documentation: Sign Sheet Processing
-
-### 1. Introduction
-
-This documentation describes the process of extracting data from sign sheets. We utilize a combination of traditional computer vision techniques along with Optical Character Recognition (OCR) to capture and record necessary details. 
 
 ### 2. Image Preprocessing
 
@@ -48,4 +39,3 @@ The steps include:
 
 ---
 
-This documentation should now cover the major steps and processes in your code. Make sure to adjust or expand on specific points based on any additional insights or nuances you might have about the project.
