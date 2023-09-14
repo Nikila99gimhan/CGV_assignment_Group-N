@@ -114,3 +114,92 @@ Identifies the bounding rectangles of the sign sheet cells.
 5. Detect and process cells within the grid.
 6. Return the processed sign sheet and cells' bounding rectangles.
 
+
+Got it. I'll adjust the instructions to reflect that.
+
+---
+
+## Running the SAMS (Sign Sheet Processing) Application
+
+### Prerequisites
+
+Ensure that you have Python 3 installed on your machine. If you haven't, you can download it from the official [Python website](https://www.python.org/downloads/).
+
+### Instructions
+
+1. **Cloning the Repository**:
+
+    - Clone the repository to your local machine using the following command:
+
+    ```
+    git clone https://github.com/Nikila99gimhan/CGV_assignment_Group-N.git
+    ```
+
+2. **Prepare the Environment**:
+
+    - Navigate to the cloned project directory:
+
+    ```
+    cd CGV_assignment_Group-N
+    ```
+
+    - Empty the `Outputs` folder to ensure that it's ready to store new processed images:
+
+    ```
+    rm -rf Outputs/*
+    ```
+
+    - Install all necessary plugins and Python modules. As we do not have a `requirements.txt` file, you will need to manually install the required packages using your preferred IDE or the pip package manager.
+
+3. **Running the Main Script**:
+
+    - Execute the `sams.py` script for each image you want to process:
+
+    ```
+    python3 sams.py [image_filename]
+    ```
+
+    For example, for the image `1.jpeg`, use:
+
+    ```
+    python3 sams.py 1.jpeg
+    ```
+
+    Repeat the process for all images you intend to process.
+
+4. **Investigation**:
+
+    - To investigate and compare the similarity of signatures, run the `investigate.py` script followed by the student index:
+
+    ```
+    python3 investigate.py [student_index]
+    ```
+
+    For example:
+
+    ```
+    python3 investigate.py 10009302
+    ```
+![MicrosoftTeams-image (2)](https://github.com/Nikila99gimhan/CGV_assignment_Group-N/assets/64256212/54b36847-0f54-4cfa-88bf-569f89dbc217)
+
+    
+
+5. **Generating Pie Charts**:
+
+    - To generate pie charts for a specific student, run the `infovis.py` script:
+
+    ```
+    python3 infovis.py [student_index]
+    ```
+
+    For example:
+
+    ```
+    python3 infovis.py 10009302
+    ```
+
+![MicrosoftTeams-image (3)](https://github.com/Nikila99gimhan/CGV_assignment_Group-N/assets/64256212/887a3f5c-53b9-4eb1-8116-2c554ce0014b)
+
+
+---
+
