@@ -2,7 +2,7 @@ import sys
 
 import cv2
 import numpy as np
-import sheet
+import Image_sheetutills
 import easyocr
 import utilities
 import xml.etree.cElementTree as ET
@@ -31,8 +31,7 @@ def rotated_sheet(img, img_adaptive_binary):
     biggest_contour = biggest_intensity_contour(contours)
 
     img_raw_sheet = utilities.get_rotated_image_from_contour(img, biggest_contour)
-
-    img_raw_sheet = sheet.resize_to_right_ratio(img_raw_sheet)
+    img_raw_sheet = Image_sheetutills.resize_to_right_ratio(img_raw_sheet)
     img_binary_sheet_rotated = adaptive_binary_image(img_raw_sheet)
 
     return img_raw_sheet, img_binary_sheet_rotated
