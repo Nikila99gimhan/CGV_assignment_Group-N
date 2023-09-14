@@ -179,8 +179,9 @@ Ensure that you have Python 3 installed on your machine. If you haven't, you can
 
     ```
     python3 investigate.py 10009302
+    
     ```
-![MicrosoftTeams-image (2)](https://github.com/Nikila99gimhan/CGV_assignment_Group-N/assets/64256212/54b36847-0f54-4cfa-88bf-569f89dbc217)
+     ![MicrosoftTeams-image (2)](https://github.com/Nikila99gimhan/CGV_assignment_Group-N/assets/64256212/54b36847-0f54-4cfa-88bf-569f89dbc217)
 
     
 
@@ -198,7 +199,7 @@ Ensure that you have Python 3 installed on your machine. If you haven't, you can
     python3 infovis.py 10009302
     ```
 
-![MicrosoftTeams-image (3)](https://github.com/Nikila99gimhan/CGV_assignment_Group-N/assets/64256212/887a3f5c-53b9-4eb1-8116-2c554ce0014b)
+     ![MicrosoftTeams-image (3)](https://github.com/Nikila99gimhan/CGV_assignment_Group-N/assets/64256212/887a3f5c-53b9-4eb1-8116-2c554ce0014b)
 
 
 ---
